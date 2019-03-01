@@ -1,0 +1,5 @@
+These assignments sought to explore two numerical methods algorithms for data interpolation and root finding. These are written in R.
+
+The golden section search algorithm takes in a unimodal function and finds the roots of the equation. It works similar to the bisection method, but converges onto a root faster, using the golden ratio to select new intervals. It is guarenteed to find a root if one exists within the interval.
+
+Eulers method is an algorithm designed to approximate ordinary differential equations. It works by splitting an interval of time into equal pieces, evaluating the differential equation according to the steps, checking the slope of the equation after each step the moving forwards according to the new slope. It will always find an approximation, but the accuracy of the algorithm is dependant on the number of steps, with more steps leading to a more accurate approximation. If you are able to integrate the differential equation, then you can compare the approximation with the real function as well.
