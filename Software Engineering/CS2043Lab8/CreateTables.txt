@@ -1,0 +1,7 @@
+create table BookTable(Id varchar(10), Title varchar(50), Description varchar(200), Author varchar(50), ISBN varchar(15), Publisher varchar(50), Year int, Inventory int, primary key (Id));
+
+create table OrderTable(Id int not null auto_increment, CustomerId varchar(10), Date varchar(10), ShippingAddress varchar(50), Status varchar(10), primary key (Id), foreign key (Id) references CustomerInfoTable (Id));
+
+create table CustomerInfoTable(Id varchar(10), FirstName varchar(20), LastName varchar(20), Address varchar(50), ContactInfo varchar(50), primary key (Id));
+
+create table BookOrderTable(BookId varchar(10), OrderId varchar(10), foreign key (BookId) references BookTable(Id), foreign key (OrderId) references OrderTable(Id));

@@ -1,0 +1,3 @@
+insert into BookTable values('001', 'Essentails of Software Engineering', 'This is a software engineering book.', 'Frank Tsui', '9781449691998', 'Jones & Bartlett', 2013, 100);
+
+insert into BookTable values('002', 'Software Architecture in Practice', 'This is a software architecture book.', 'Paul Clements', '9780321815736', 'Addison-Wesley', 2012, 50);
