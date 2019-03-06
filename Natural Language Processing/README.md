@@ -1,0 +1,1 @@
+This project sought to analyze raw text data from social media and other sources then have the program decide the sentiment of the text, whether the writer was talking negatively or positively about the subject.
